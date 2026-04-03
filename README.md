@@ -123,7 +123,7 @@ uvicorn app.main:app --reload
 2. Go to [render.com](https://render.com) → **New Web Service**
 3. Connect your GitHub repo
 4. Render auto-detects `render.yaml` — click **Deploy**
-5. Your API will be live at `https://loan-default-api.onrender.com`
+5. Your API will be live at `https://loan-default-api-9djd.onrender.com/docs`
 
 > **Note:** Render's free tier spins down after inactivity. First request after sleep may take ~30 seconds.
 
