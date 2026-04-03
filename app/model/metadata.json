@@ -1,0 +1,28 @@
+{
+  "features": [
+    "age",
+    "income",
+    "loan_amount",
+    "loan_term",
+    "interest_rate",
+    "credit_score",
+    "employment_years",
+    "num_prev_loans",
+    "missed_payments",
+    "debt_to_income",
+    "loan_purpose_enc",
+    "monthly_payment_burden",
+    "credit_risk_flag",
+    "high_missed_flag"
+  ],
+  "loan_purpose_classes": [
+    "business",
+    "education",
+    "home_improvement",
+    "medical",
+    "personal"
+  ],
+  "model_type": "RandomForestClassifier",
+  "roc_auc": 0.9884,
+  "test_accuracy": 0.9317
+}
